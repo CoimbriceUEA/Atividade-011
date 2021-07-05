@@ -101,8 +101,6 @@ def redrawGameWindow():
                 screen.blit(standing_left[walkCount//3], (x, y))
                 walkCount += 1
 
-    elif walkCount + 1 >= 27 and not isJump:
-        walkCount = 0
 
     # mario walking left
     elif left:
